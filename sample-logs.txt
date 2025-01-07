@@ -1,0 +1,20 @@
+2024-01-06 08:23:15 INFO [AuthService] User login successful from IP 192.168.1.100
+2024-01-06 08:23:16 DEBUG [SessionManager] New session created: sid=abc123
+2024-01-06 08:24:30 WARNING [Firewall] Multiple connection attempts from IP 45.33.12.146
+2024-01-06 08:24:31 ERROR [Firewall] Potential port scan detected from IP 45.33.12.146
+2024-01-06 08:24:32 ERROR [IDS] Signature match: SQL injection attempt from IP 45.33.12.146
+2024-01-06 08:25:45 INFO [AuthService] Password change request for user admin
+2024-01-06 08:25:46 ERROR [AuthService] Failed password change - Invalid current password
+2024-01-06 08:26:10 WARNING [SystemMonitor] High CPU usage: 92%
+2024-01-06 08:26:15 INFO [BackupService] Daily backup started
+2024-01-06 08:26:20 ERROR [BackupService] Insufficient disk space for backup
+2024-01-06 08:27:30 INFO [AuthService] User login successful from IP 192.168.1.105
+2024-01-06 08:27:35 WARNING [IDS] Unusual outbound connection to IP 185.143.223.12
+2024-01-06 08:27:40 ERROR [IDS] Malware signature detected in outbound traffic
+2024-01-06 08:28:00 CRITICAL [SystemMonitor] Memory usage exceeded 95%
+2024-01-06 08:28:05 INFO [Firewall] Blocking all connections from IP 45.33.12.146
+2024-01-06 08:28:10 ERROR [DatabaseService] Connection timeout after 30s
+2024-01-06 08:28:15 WARNING [AuthService] Multiple failed login attempts for user root
+2024-01-06 08:28:20 ERROR [AuthService] Account locked: root - excessive login failures
+2024-01-06 08:29:00 INFO [SystemUpdate] Security patches available: 3 critical updates
+2024-01-06 08:29:05 DEBUG [NetworkScanner] Starting scheduled network scan
